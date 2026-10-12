@@ -17,18 +17,6 @@ class NewItem extends StatefulWidget {
   }
 }
 
-//flutterfire configure --project=shopping-list-9e106
-//dart pub global activate flutterfire_cli
-// Initialize Firebase
-//import 'package:firebase_core/firebase_core.dart';
-//import 'firebase_options.dart';
-
-// ...
-
-//await Firebase.initializeApp(
-//  options: DefaultFirebaseOptions.currentPlatform,
-//);
-
 class _NewItemState extends State<NewItem> {
   final _formKey = GlobalKey<FormState>();
   var _enteredName = '';
